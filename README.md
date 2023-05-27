@@ -1,2 +1,2 @@
 # WXintl-Direct
-WXintl domain direct rules stoverride for stash
+WXintl domain direct rules stoverride for stash.
