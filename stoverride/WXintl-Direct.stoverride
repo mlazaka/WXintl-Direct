@@ -118,3 +118,21 @@ rules:
   - DOMAIN-SUFFIX,szmg.qq.com,DIRECT
   - DOMAIN-SUFFIX,mttstr.beacon.qq.com,DIRECT
   - DOMAIN-SUFFIX,mtteve.beacon.qq.com,DIRECT
+  # Domain information Extra
+  - DOMAIN-SUFFIX,sgreport.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,wx.qlogo.com,DIRECT
+  - DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
+  - DOMAIN-SUFFIX,dl.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,finderrmp.video.qq.com,DIRECT
+  - DOMAIN-SUFFIX,lbs.map.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mmbiz.qlogo.cn,DIRECT
+  - DOMAIN-SUFFIX,badjs.weixinbridge.com,DIRECT
+  - DOMAIN-SUFFIX,support.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,puui.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,up-hl.3g.qq.com,DIRECT
+  - DOMAIN-SUFFIX,yun-hl.3g.qq.com,DIRECT
+  - DOMAIN-SUFFIX,3gimg.qq.com,DIRECT
+  - DOMAIN-SUFFIX,dldir1.qq.com,DIRECT
+  - DOMAIN-SUFFIX,res2.wx.qq.com,DIRECT
+  - DOMAIN-SUFFIX,thirdwx.glogo.cn,DIRECT
+  - DOMAIN-SUFFIX,wework.qpic.cn,DIRECT
