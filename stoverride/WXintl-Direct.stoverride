@@ -1,138 +1,150 @@
 name: "WXintl-Direct"
 desc: Wechat intl.相关域名直连
 author: mlazaka
-homepage: "https://github.com/mlazaka/WXintl-Direct"
-icon: "https://github.com/Koolson/Qure/blob/master/IconSet/WeChat.png"
-
-//Domain information from: http://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
-
+homepage: https://github.com/mlazaka/WXintl-Direct
+icon: https://github.com/Koolson/Qure/blob/master/IconSet/WeChat.png
+# Domain information from: http://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
+# Update Date: 30/03/2024
 rules:
-  - DOMAIN-SUFFIX,long.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,short.pay.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,extshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,shextshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,short.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szlong.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mlminorshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mllong.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szextshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szaxshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szquic.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,quic.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mldisas.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szdisas.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mlshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mlaxshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mlshort.pay.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,shshort.pay.weixin.qq.com,DIRECT
+  # IP-ASN
+  - IP-ASN,132203,DIRECT
+  # WeiXin(ip located in SH, SZ, HK）
+  - DOMAIN-SUFFIX,3gimg.qq.com,DIRECT
+  - DOMAIN-SUFFIX,api.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,api2.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,axshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mlextshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szminorshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,shquic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,axshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,badjs.weixinbridge.com,DIRECT
+  - DOMAIN-SUFFIX,c6.y.qq.com,DIRECT
+  - DOMAIN-SUFFIX,dl.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,dldir1.qq.com,DIRECT
+  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn,DIRECT
+  - DOMAIN-SUFFIX,emoji.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,extshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,finderrmp.video.qq.com,DIRECT
+  - DOMAIN-SUFFIX,findershort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hkshort.mixpay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,hkshort.snspay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,lbs.map.qq.com,DIRECT
+  - DOMAIN-SUFFIX,long.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,minorlong.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,minorshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,shdisas.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlaxshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mldisas.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlextshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlfindershort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mllong.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlminorlong.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlminorshort.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,mlquic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlshort.mixpay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,mlshort.pay.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlshort.snspay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,mlshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mlsupport.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mmbiz.qlogo.cn,DIRECT
+  - DOMAIN-SUFFIX,mmbiz.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,mmsns.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,mp.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mtteve.beacon.qq.com,DIRECT
+  - DOMAIN-SUFFIX,mttstr.beacon.qq.com,DIRECT
+  - DOMAIN-SUFFIX,open.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,os.api.unipay.qq.com,DIRECT
+  - DOMAIN-SUFFIX,puui.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,qlogo.cn,DIRECT
+  - DOMAIN-SUFFIX,qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,quic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,quic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
+  - DOMAIN-SUFFIX,res2.wx.qq.com,DIRECT
+  - DOMAIN-SUFFIX,sh.api.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,shdisas.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,shextshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,shminorlong.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,shmmsns.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,short.mixpay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,short.pay.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,short.snspay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,short.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,shp.qlogo.cn,DIRECT
+  - DOMAIN-SUFFIX,shquic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,shshort.mixpay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,shshort.pay.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,shshort.snspay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,snsvideo.c2c.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,support.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,support.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,sz.api.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szaxshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szdisas.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szextshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szfindershort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szlong.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szmg.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szminorlong.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szminorshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szmmsns.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,szquic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szshort.mixpay.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,szshort.pay.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,szshort.snspay.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,szshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,sgminorshort.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,sgshort.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,sglong.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,szsupport.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,thirdwx.glogo.cn,DIRECT
+  - DOMAIN-SUFFIX,udns.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,up-hl.3g.qq.com,DIRECT
+  - DOMAIN-SUFFIX,vweixinf.tc.qq.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,weixin110.qq.com,DIRECT
+  - DOMAIN-SUFFIX,weixinc2c.tc.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wework.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,wx.qlogo.cn,DIRECT
+  - DOMAIN-SUFFIX,wx.qlogo.com,DIRECT
+  - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wximg.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wxsnsdyvip.wxs.qq.com,DIRECT
+  - DOMAIN-SUFFIX,yun-hl.3g.qq.com,DIRECT
+  # WeChat HK&MO(ip located in SZ, HK）
+  - DOMAIN-SUFFIX,hk.api.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hkaxshort.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,hkdisas.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,hkshort6.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hkextshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hkfindershort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hklong.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hkminorshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hkquic.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,hkshort.pay.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,hkshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,hklong.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,hkaxshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,hkextshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,hkquic.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,sgshort.pay.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,sgaxshort.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,hkminorshort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szsupport.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,api.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,api2.weixin.qq.com,DIRECT #
-  - DOMAIN-SUFFIX,sh.api.weixin.qq.com,DIRECT #
-  - DOMAIN-SUFFIX,sz.api.weixin.qq.com,DIRECT #
-  - DOMAIN-SUFFIX,hk.api.weixin.qq.com,DIRECT # Domain information from: https://developers.weixin.qq.com/doc/offiaccount/Basic_Information/Interface_field_description.html
-  - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mmsns.qpic.cn,DIRECT
-  - DOMAIN-SUFFIX,c6.y.qq.com,DIRECT
-  - DOMAIN-SUFFIX,shmmsns.qpic.cn,DIRECT
-  - DOMAIN-SUFFIX,szmmsns.qpic.cn,DIRECT
-  - DOMAIN-SUFFIX,mlsupport.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,weixin110.qq.com,DIRECT
-  - DOMAIN-SUFFIX,shp.qlogo.cn,DIRECT
-  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,vweixinf.tc.qq.com,DIRECT
-  - DOMAIN-SUFFIX,support.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,weixinc2c.tc.qq.com,DIRECT
+  - DOMAIN-SUFFIX,hkshort6.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,hksupport.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com,REJECT # wechat ad domain 
-  - DOMAIN-SUFFIX,mp.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,open.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com,REJECT # wechat ad domain 
-  - DOMAIN-SUFFIX,udns.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,short.mixpay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,szshort.mixpay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,shshort.mixpay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,shshort.snspay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,short.snspay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,mlshort.snspay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,mlshort.mixpay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,szshort.snspay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,sgshort.snspay.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,hkshort.snspay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,sgquic.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,hkshort.mixpay.wechatpay.cn,DIRECT
-  - DOMAIN-SUFFIX,sgshort.mixpay.wechat.com,DIRECT
   - DOMAIN-SUFFIX,mmsns.hk.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,wx.qlogo.cn,DIRECT
-  - DOMAIN-SUFFIX,minorlong.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,shminorlong.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn,DIRECT
-  - DOMAIN-SUFFIX,szminorlong.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mlminorlong.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szfindershort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mlfindershort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,findershort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,hkfindershort.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,sgfindershort.wechat.com,DIRECT
   - DOMAIN-SUFFIX,res.servicewechat.com,DIRECT
-  - DOMAIN-SUFFIX,wximg.qq.com,DIRECT
-  - DOMAIN-SUFFIX,wxsnsdyvip.wxs.qq.com,DIRECT
-  - DOMAIN-SUFFIX,wx.qlogo.,DIRECT
-  - DOMAIN-SUFFIX,emoji.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,resstatic.servicewechat.com,DIRECT
-  # Domain information from: https://www.v2ex.com/t/882023
-  - DOMAIN-SUFFIX,mmbiz.qpic.cn,DIRECT
-  - DOMAIN-SUFFIX,qpic.cn,DIRECT
-  - DOMAIN-SUFFIX,qlogo.cn,DIRECT
-  # Domain information from: https://v2ex.com/t/810524
-  - DOMAIN-SUFFIX,snsvideo.c2c.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,socwxsns.video.qq.com,DIRECT
-  - DOMAIN-SUFFIX,wxapp.tc.qq.com ,DIRECT
-  - DOMAIN-SUFFIX,socwxsns.video.qq.com,DIRECT
-  # Domain information from: https://hostloc.com/thread-781055-1-1.html
-  - DOMAIN-SUFFIX,wx.qlogo.cn,DIRECT
-  - DOMAIN-SUFFIX,os.api.unipay.qq.com,DIRECT
-  - DOMAIN-SUFFIX,szmg.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mttstr.beacon.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mtteve.beacon.qq.com,DIRECT
-  # Domain information Extra
+  # WeChat SG(ip located in SG）
+  - DOMAIN-SUFFIX,sgaxshort.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,sgfindershort.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,sglong.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,sgminorshort.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,sgquic.wechat.com,DIRECT
   - DOMAIN-SUFFIX,sgreport.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,wx.qlogo.com,DIRECT
-  - DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
-  - DOMAIN-SUFFIX,dl.wechat.com,DIRECT
-  - DOMAIN-SUFFIX,finderrmp.video.qq.com,DIRECT
-  - DOMAIN-SUFFIX,lbs.map.qq.com,DIRECT
-  - DOMAIN-SUFFIX,mmbiz.qlogo.cn,DIRECT
-  - DOMAIN-SUFFIX,badjs.weixinbridge.com,DIRECT
-  - DOMAIN-SUFFIX,support.weixin.qq.com,DIRECT
-  - DOMAIN-SUFFIX,puui.qpic.cn,DIRECT
-  - DOMAIN-SUFFIX,up-hl.3g.qq.com,DIRECT
-  - DOMAIN-SUFFIX,yun-hl.3g.qq.com,DIRECT
-  - DOMAIN-SUFFIX,3gimg.qq.com,DIRECT
-  - DOMAIN-SUFFIX,dldir1.qq.com,DIRECT
-  - DOMAIN-SUFFIX,res2.wx.qq.com,DIRECT
-  - DOMAIN-SUFFIX,thirdwx.glogo.cn,DIRECT
-  - DOMAIN-SUFFIX,wework.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,sgshort.mixpay.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,sgshort.pay.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,sgshort.snspay.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,sgshort.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,support.wechat.com,DIRECT
+  # IP-CIDR
+  - IP-CIDR,101.32.104.0/21,no-resolve
+  - IP-CIDR,101.32.118.0/23,no-resolve
+  - IP-CIDR,101.32.132.0/22,no-resolve
+  - IP-CIDR,129.226.2.0/23,no-resolve
+  - IP-CIDR,43.130.194.0/23,no-resolve
+  - IP-CIDR,43.152.112.0/24,no-resolve
+  - IP-CIDR,43.152.14.0/24,no-resolve
+  - IP-CIDR,43.153.192.0/18,no-resolve
+  - IP-CIDR,43.156.192.0/18,no-resolve
+  - IP-CIDR,43.156.64.0/18,no-resolve
+  - IP-CIDR,43.159.26.0/24,no-resolve
+  - IP-CIDR,43.160.144.0/20,no-resolve
