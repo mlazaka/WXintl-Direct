@@ -6,8 +6,6 @@ icon: https://github.com/Koolson/Qure/blob/master/IconSet/WeChat.png
 # Domain information from: http://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
 # Update Date: 30/03/2024
 rules:
-  # IP-ASN
-  - IP-ASN,132203,DIRECT
   # WeiXin(ip located in SH, SZ, HK）
   - DOMAIN-SUFFIX,3gimg.qq.com,DIRECT
   - DOMAIN-SUFFIX,api.weixin.qq.com,DIRECT
@@ -148,3 +146,5 @@ rules:
   - IP-CIDR,43.156.64.0/18,no-resolve
   - IP-CIDR,43.159.26.0/24,no-resolve
   - IP-CIDR,43.160.144.0/20,no-resolve
+  # IP-ASN
+  - IP-ASN,132203,DIRECT,no-resolve
