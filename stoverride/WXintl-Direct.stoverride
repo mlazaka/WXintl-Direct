@@ -2,7 +2,7 @@ name: "WXintl-Direct"
 desc: Wechat intl.相关域名直连
 author: mlazaka
 homepage: https://github.com/mlazaka/WXintl-Direct
-icon: https://github.com/Koolson/Qure/blob/master/IconSet/WeChat.png
+icon: https://github.com/Koolson/Qure/raw/master/IconSet/WeChat.png
 # Domain information from: http://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
 # Update Date: 30/03/2024
 rules:
