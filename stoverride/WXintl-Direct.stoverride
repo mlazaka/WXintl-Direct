@@ -2,28 +2,44 @@ name: "WXintl-Direct"
 desc: Wechat intl.相关域名直连
 author: mlazaka
 homepage: https://github.com/mlazaka/WXintl-Direct
-icon: https://github.com/Koolson/Qure/raw/master/IconSet/WeChat.png
+icon: https://github.com/Koolson/Qure/blob/master/IconSet/WeChat.png
 # Domain information from: http://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
-# Update Date: 30/03/2024
+# Update Date: 19/10/2024
 rules:
   # WeiXin(ip located in SH, SZ, HK）
   - DOMAIN-SUFFIX,3gimg.qq.com,DIRECT
+  - DOMAIN-SUFFIX,act.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,api.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,api2.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,api3.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,applet-api.veding.com,DIRECT
   - DOMAIN-SUFFIX,axshort.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,axshort.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,badjs.weixinbridge.com,DIRECT
   - DOMAIN-SUFFIX,c6.y.qq.com,DIRECT
+  - DOMAIN-SUFFIX,cc.map.qq.com,DIRECT
+  - DOMAIN-SUFFIX,chong.kingcard.qq.com,DIRECT
+  - DOMAIN-SUFFIX,cube.weixinbridge.com,DIRECT
+  - DOMAIN-SUFFIX,discount.wxpapp.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,dl.wechat.com,DIRECT
   - DOMAIN-SUFFIX,dldir1.qq.com,DIRECT
+  - DOMAIN-SUFFIX,dldir1v6.qq.com,DIRECT
   - DOMAIN-SUFFIX,dns.weixin.qq.com.cn,DIRECT
   - DOMAIN-SUFFIX,emoji.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,extshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,findermp.video.qq.com,DIRECT
   - DOMAIN-SUFFIX,finderrmp.video.qq.com,DIRECT
   - DOMAIN-SUFFIX,findershort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,gtimg.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,hkshort.mixpay.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,hkshort.snspay.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,img01.sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,img02.sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,img03.sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn,DIRECT
   - DOMAIN-SUFFIX,lbs.map.qq.com,DIRECT
+  - DOMAIN-SUFFIX,log.wechatpay.cn,DIRECT
+  - DOMAIN-SUFFIX,log.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,long.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,minorlong.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,minorshort.weixin.qq.com,DIRECT
@@ -42,19 +58,28 @@ rules:
   - DOMAIN-SUFFIX,mlsupport.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,mmbiz.qlogo.cn,DIRECT
   - DOMAIN-SUFFIX,mmbiz.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,mmcard.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,mmpayweb.cdn-go.cn,DIRECT
   - DOMAIN-SUFFIX,mmsns.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,mp.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,mp.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,mtteve.beacon.qq.com,DIRECT
   - DOMAIN-SUFFIX,mttstr.beacon.qq.com,DIRECT
   - DOMAIN-SUFFIX,open.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,os.api.unipay.qq.com,DIRECT
+  - DOMAIN-SUFFIX,pay.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,payapp.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,puui.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,qlogo.cn,DIRECT
   - DOMAIN-SUFFIX,qpic.cn,DIRECT
   - DOMAIN-SUFFIX,quic.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,quic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,res.veding.com,DIRECT
+  - DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
   - DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
   - DOMAIN-SUFFIX,res2.wx.qq.com,DIRECT
+  - DOMAIN-SUFFIX,search-liteapp.wxqcloud.qq.com,DIRECT
+  - DOMAIN-SUFFIX,servicewechat.com,DIRECT
   - DOMAIN-SUFFIX,sh.api.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,shdisas.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,shextshort.weixin.qq.com,DIRECT
@@ -88,19 +113,26 @@ rules:
   - DOMAIN-SUFFIX,szshort.snspay.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,szshort.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,szsupport.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,tencentmap.wechat.com,DIRECT
+  - DOMAIN-SUFFIX,tenpay.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,thirdwx.glogo.cn,DIRECT
+  - DOMAIN-SUFFIX,thirdwx.qlogo.cn,DIRECT
   - DOMAIN-SUFFIX,udns.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,ue.indoorloc.map.qq.com,DIRECT
   - DOMAIN-SUFFIX,up-hl.3g.qq.com,DIRECT
   - DOMAIN-SUFFIX,vweixinf.tc.qq.com,DIRECT
   - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,weixin110.qq.com,DIRECT
   - DOMAIN-SUFFIX,weixinc2c.tc.qq.com,DIRECT
   - DOMAIN-SUFFIX,wework.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,wx.gtimg.com,DIRECT
   - DOMAIN-SUFFIX,wx.qlogo.cn,DIRECT
   - DOMAIN-SUFFIX,wx.qlogo.com,DIRECT
   - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
   - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
   - DOMAIN-SUFFIX,wximg.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wxpay.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,wxpaylogo.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com,DIRECT
   - DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com,DIRECT
   - DOMAIN-SUFFIX,wxsnsdyvip.wxs.qq.com,DIRECT
