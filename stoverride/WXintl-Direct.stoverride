@@ -4,7 +4,7 @@ author: mlazaka
 homepage: https://github.com/mlazaka/WXintl-Direct
 icon: https://github.com/Koolson/Qure/blob/master/IconSet/WeChat.png
 # Domain information from: http://dns.weixin.qq.com/cgi-bin/micromsg-bin/newgetdns
-# Update Date: 19/10/2024
+# Update Date: 11/04/2025
 rules:
   # WeiXin(ip located in SH, SZ, HK）
   - DOMAIN-SUFFIX,3gimg.qq.com,DIRECT
@@ -27,6 +27,7 @@ rules:
   - DOMAIN-SUFFIX,dns.weixin.qq.com.cn,DIRECT
   - DOMAIN-SUFFIX,emoji.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,extshort.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,finder.video.qq.com,DIRECT
   - DOMAIN-SUFFIX,findermp.video.qq.com,DIRECT
   - DOMAIN-SUFFIX,finderrmp.video.qq.com,DIRECT
   - DOMAIN-SUFFIX,findershort.weixin.qq.com,DIRECT
@@ -36,11 +37,13 @@ rules:
   - DOMAIN-SUFFIX,img01.sogoucdn.com,DIRECT
   - DOMAIN-SUFFIX,img02.sogoucdn.com,DIRECT
   - DOMAIN-SUFFIX,img03.sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,kf.wxpapp.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn,DIRECT
   - DOMAIN-SUFFIX,lbs.map.qq.com,DIRECT
   - DOMAIN-SUFFIX,log.wechatpay.cn,DIRECT
   - DOMAIN-SUFFIX,log.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,long.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,minip.e-cny.tenpay.cn,DIRECT
   - DOMAIN-SUFFIX,minorlong.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,minorshort.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,mlaxshort.weixin.qq.com,DIRECT
@@ -59,6 +62,7 @@ rules:
   - DOMAIN-SUFFIX,mmbiz.qlogo.cn,DIRECT
   - DOMAIN-SUFFIX,mmbiz.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,mmcard.qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,mmecoa.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,mmpayweb.cdn-go.cn,DIRECT
   - DOMAIN-SUFFIX,mmsns.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,mp.weixin.qq.com,DIRECT
@@ -69,11 +73,13 @@ rules:
   - DOMAIN-SUFFIX,os.api.unipay.qq.com,DIRECT
   - DOMAIN-SUFFIX,pay.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,payapp.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,payapp.wechatpay.com,DIRECT
   - DOMAIN-SUFFIX,puui.qpic.cn,DIRECT
   - DOMAIN-SUFFIX,qlogo.cn,DIRECT
   - DOMAIN-SUFFIX,qpic.cn,DIRECT
   - DOMAIN-SUFFIX,quic.weixin.qq.com,DIRECT
   - DOMAIN-SUFFIX,quic.weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,report-online.sh.wxgateway.com,DIRECT
   - DOMAIN-SUFFIX,res.veding.com,DIRECT
   - DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
   - DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
