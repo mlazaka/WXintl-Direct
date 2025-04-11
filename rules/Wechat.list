@@ -2,9 +2,9 @@
 # AUTHOR: mlazaka
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATE DATE: 19/10/2024
-# DOMAIN-SUFFIX: 154
+# DOMAIN-SUFFIX: 159
 # IP-CIDR: 12
-# TOTAL: 166
+# TOTAL: 171
 
 # WeiXin(ip located in SH, SZ, HK）
 DOMAIN-SUFFIX,3gimg.qq.com
@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,dldir1v6.qq.com
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,emoji.qpic.cn
 DOMAIN-SUFFIX,extshort.weixin.qq.com
+DOMAIN-SUFFIX,finder.video.qq.com
 DOMAIN-SUFFIX,findermp.video.qq.com
 DOMAIN-SUFFIX,finderrmp.video.qq.com
 DOMAIN-SUFFIX,findershort.weixin.qq.com
@@ -35,11 +36,13 @@ DOMAIN-SUFFIX,hkshort.snspay.wechatpay.cn
 DOMAIN-SUFFIX,img01.sogoucdn.com
 DOMAIN-SUFFIX,img02.sogoucdn.com
 DOMAIN-SUFFIX,img03.sogoucdn.com
+DOMAIN-SUFFIX,kf.wxpapp.wechatpay.cn
 DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,lbs.map.qq.com
 DOMAIN-SUFFIX,log.wechatpay.cn
 DOMAIN-SUFFIX,log.weixin.qq.com
 DOMAIN-SUFFIX,long.weixin.qq.com
+DOMAIN-SUFFIX,minip.e-cny.tenpay.cn
 DOMAIN-SUFFIX,minorlong.weixin.qq.com
 DOMAIN-SUFFIX,minorshort.weixin.qq.com
 DOMAIN-SUFFIX,mlaxshort.weixin.qq.com
@@ -58,6 +61,7 @@ DOMAIN-SUFFIX,mlsupport.weixin.qq.com
 DOMAIN-SUFFIX,mmbiz.qlogo.cn
 DOMAIN-SUFFIX,mmbiz.qpic.cn
 DOMAIN-SUFFIX,mmcard.qpic.cn
+DOMAIN-SUFFIX,mmecoa.qpic.cn
 DOMAIN-SUFFIX,mmpayweb.cdn-go.cn
 DOMAIN-SUFFIX,mmsns.qpic.cn
 DOMAIN-SUFFIX,mp.weixin.qq.com
@@ -68,13 +72,14 @@ DOMAIN-SUFFIX,open.weixin.qq.com
 DOMAIN-SUFFIX,os.api.unipay.qq.com
 DOMAIN-SUFFIX,pay.weixin.qq.com
 DOMAIN-SUFFIX,payapp.weixin.qq.com
+DOMAIN-SUFFIX,payapp.wechatpay.com
 DOMAIN-SUFFIX,puui.qpic.cn
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,quic.weixin.qq.com
 DOMAIN-SUFFIX,quic.weixin.qq.com
+DOMAIN-SUFFIX,report-online.sh.wxgateway.com
 DOMAIN-SUFFIX,res.veding.com
-DOMAIN-SUFFIX,res.wx.qq.com
 DOMAIN-SUFFIX,res.wx.qq.com
 DOMAIN-SUFFIX,res2.wx.qq.com
 DOMAIN-SUFFIX,search-liteapp.wxqcloud.qq.com
